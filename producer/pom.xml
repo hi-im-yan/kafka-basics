@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.yanajiki</groupId>
-	<artifactId>kafkabasics</artifactId>
+	<artifactId>producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka basics</name>
 	<description>Demo for kafka implementation</description>
