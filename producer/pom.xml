@@ -11,7 +11,7 @@
 	<groupId>com.yanajiki</groupId>
 	<artifactId>producer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>kafka basics</name>
+	<name>kafka basics - producer</name>
 	<description>Demo for kafka implementation</description>
 	<properties>
 		<java.version>17</java.version>

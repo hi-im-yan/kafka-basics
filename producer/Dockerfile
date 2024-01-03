@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-slim
 
-COPY target/kafkabasics-*.jar /app/app.jar
+COPY target/producer-*.jar /app/app.jar
 
 WORKDIR /app
 
