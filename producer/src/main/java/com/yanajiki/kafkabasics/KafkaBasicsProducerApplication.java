@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 @EnableKafka
-public class KafkaBasicsApplication {
+public class KafkaBasicsProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaBasicsApplication.class, args);
+		SpringApplication.run(KafkaBasicsProducerApplication.class, args);
 	}
 
 	@GetMapping("/health")
