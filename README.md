@@ -20,11 +20,11 @@ This project is to make a base study of kafka producers and consumers.
 
 ## Examples
 ### Request example
-![request-example](documentation/request-example.png)
+![request-example](documentation/request-example.PNG)
 
 ### Processed message
-![processed-message](documentation/processed-message.png)
+![processed-message](documentation/processed-message.PNG)
 
 ### Kafka-UI
-![kafka-ui](documentation/kafka-ui.png)
-![kafka-ui-message](documentation/kafka-ui-message.png)
+![kafka-ui](documentation/kafka-ui.PNG)
+![kafka-ui-message](documentation/kafka-ui-message.PNG)
