@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "c1a556df-7545-4471-84a3-ed258dbbef55",
+		"name": "Kafka-Basics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21553997"
+	},
+	"item": [
+		{
+			"name": "New Message",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"receiver\": \"yanajiki@gmail.com\",\r\n    \"subject\": \"teste kafka\",\r\n    \"message\": \"kafka message\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/send-mail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"send-mail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
